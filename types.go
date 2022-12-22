@@ -17,12 +17,11 @@ func main() {
 	fmt.Println(boolean)
 
 	// Alphabetic 
-	var character byte
-	var utf8Character rune
-	var sentence string
-	
+	var (
 	character = 'A'
 	utf8Character = 'س' 
 	sentence = "hello world"
+	)
 	fmt.Println(string(character), string(utf8Character), sentence)
+	fmt.Println(string(sentence[0]), string(sentence[1]))
 }
